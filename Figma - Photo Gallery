@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+header{
+    display: flex;
+    gap: 55px;
+    align-items: center;
+    padding-top: 17px;
+}
+body{
+  justify-content: center;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 15px;
+}
+
+.camera{
+    width: 30px;
+    height: 30px;
+}
+.pesquisa{
+background:#c7c3c3cb;
+width: 900px;
+opacity: 56%;
+border-radius: 7px;
+padding: 0 10px;
+height: 35px;
+
+}
+.perfil{
+    border: 1px solid white;
+    display: block;
+    border-radius: 50%;
+    margin: 0 auto;
+    width: 42px;
+    height: 42px;
+    object-fit: cover;
+}
+main{
+    background: rgba(194, 188, 188, 0.726);    
+    padding-bottom: 50px; 
+    padding-top: 20px;
+}
+.imgs{
+    width: 100%;
+    height: 194px;
+    border-radius: 10px;
+}
+.fundobranco{
+    border-radius: 10px;
+    background: white;
+    width: calc(100% / 3 - 15px);
+    height: 258px;
+}
+
+.fundobranco .text {
+    padding: 10px;
+}
+footer{
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.botao{
+background: rgba(151, 148, 148, 0.158);
+width: 28px;
+height: 22px;
+border-radius: 3px;
+}
+
+.fotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 15px;
+}
+
+.container {
+    width: 1240px;
+    margin: 0 auto;
+    
+}
+
+
+    </style>
+
+
+</head>
+<body>
+   
+    <header class="container">
+        <img src="img/dslr-camera.png" alt="" class="camera">
+        <p>Home</p>
+        <p><b>Galeria</b></p>
+        <input type="text" class="pesquisa" placeholder="Pesquise por imagens e coleções">
+        <img src="img/jojo.jpg" alt="" class="perfil">
+    </header>
+ <br>
+
+
+<main>
+    <div class="container">
+
+        <h3>Galeria</h3>
+        <br>
+    
+        <div class="fotos">
+    
+            <div class="fundobranco">
+                <img src="img/amarela.jpg" alt="" class="imgs">
+                <div class="text">
+                  <p><b>Workspace elétrica</b></p>
+                  <p class="botao" style="text-align: center;">TAG</p>
+              </div>
+            </div>
+        
+            <div class="fundobranco">
+              <img src="img/vermelha.jpg" alt="" class="imgs">
+              <div class="text">
+              <p><b>Dark and red</b></p>
+              <p class="botao" style="text-align: center;">TAG</p>
+              </div>
+            </div>
+            
+            <div class="fundobranco">
+              <img src="img/roxa.jpg" alt="" class="imgs">
+              <div class="text">
+              <p><b>Organização e grids</b></p>
+              <p class="botao" style="text-align: center;">TAG</p>
+              </div>
+              </div>
+         
+            <div class="fundobranco">
+              <img src="img/1baixo.jpg" alt="" class="imgs">
+              <div class="text">
+              <p><b>Colméia</b></p>
+              <p class="botao" style="text-align: center;">TAG</p>
+              </div>
+              </div>
+        
+            <div class="fundobranco">
+              <img src="img/2baixo.jpg" alt="" class="imgs">
+              <div class="text">
+              <p><b>Setup de escritor</b></p>
+              <p class="botao" style="text-align: center;">TAG</p>
+              </div>
+              
+            </div>
+        
+            <div class="fundobranco">
+              <img src="img/3baixo.jpg" alt="" class="imgs">
+              <div class="text">
+              <p><b>Ergonomia e cores</b></p>
+              <p class="botao" style="text-align: center;">TAG</p>
+              </div>
+              </div>
+        
+            <div class="fundobranco">
+              <img src="img/1ultima.jpg" alt="" class="imgs">
+              <div class="text">
+              <p><b>Show de luzes</b></p>
+              <p class="botao" style="text-align: center;">TAG</p> 
+              </div>
+              </div>
+        
+          <div class="fundobranco">
+              <img src="img/2ultima.jpg" alt="" class="imgs">
+              <div class="text">
+              <p><b>Deep purple</b></p>
+              <p class="botao" style="text-align: center;">TAG</p>
+              </div>
+              </div>
+        
+          <div class="fundobranco">
+              <img src="img/3baixo.jpg" alt="" class="imgs">
+              <div class="text">
+              <p><b>Multi-Screen</b></p>
+              <p class="botao" style="text-align: center;">TAG</p>
+              </div>
+              
+          </div>
+        </div>
+    </div>
+
+
+</main>
+
+<footer>
+    <p>© 2025 - Web Gallery </p>
+</footer>
+
+</body>
+</html>
